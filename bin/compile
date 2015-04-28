@@ -15,11 +15,8 @@ gempath:
 - $1/.gems
 EOF
 
-message "Installing jekyll version 0.11.2"
-/usr/local/bin/gem install jekyll -v 0.11.2 --no-rdoc --no-ri | indent
-
-message "Installing Liquid version 2.2.2"
-/usr/local/bin/gem install liquid -v 2.2.2 --no-rdoc --no-ri | indent
+message "Installing jekyll version 2.5.3"
+/usr/local/bin/gem install jekyll -v 2.5.3 --no-rdoc --no-ri | indent
 
 message "Installing gemoji"
 /usr/local/bin/gem install gemoji --no-rdoc --no-ri | indent
