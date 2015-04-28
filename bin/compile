@@ -21,6 +21,9 @@ message "Installing jekyll version 0.11.2"
 message "Installing Liquid version 2.2.2"
 /usr/local/bin/gem install liquid -v 2.2.2 --no-rdoc --no-ri | indent
 
+message "Installing gemoji"
+/usr/local/bin/gem install gemoji --no-rdoc --no-ri | indent
+
 # Run Jekyll
 message "Setting environment variables"
 export GEM_HOME=$1/.gems
